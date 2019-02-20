@@ -24,13 +24,13 @@ body{
 }
 
 #tabtitle{
-position: absolute;
+float: left;
 left: 0px;
 margin: 0 auto;
 background-color: #4aaaa5;
 color:white;
 padding:10px;
-padding-bottom:10px;
+
 width:400px;
 height:90px;
 
@@ -144,7 +144,7 @@ padding:10px;
     overflow: auto;
     clear:both;
     margin: 15px;
-    height: 200px;
+    height: 210px;
     width:200px;
     background-image: url(../images/portfolio5.jpg);
   }
@@ -181,20 +181,6 @@ padding:10px;
     padding: 20px;
   }
   
-  /* Clear floats after the columns */
-  .row:after {
-    content: "";
-    display: table;
-    clear: both;
-  }
-  
-  /* Responsive layout - when the screen is less than 600px wide, make the two columns stack on top of each other instead of next to each other */
-  @media screen and (max-width: 600px) {
-    .col-25, .col-75, input[type=submit] {
-      width: 100%;
-      margin-top: 0;
-    }
-  }
 
  h4{
    font-size: xx-large;
